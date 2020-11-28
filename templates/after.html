@@ -1,0 +1,30 @@
+<html>
+
+<body bgcolor=#FFC300>
+
+    <center>
+
+        <h1> PREDICTION : </h1>
+
+        {%if data == 0%}
+        <h1> IRIS SETOSA <h1>
+        <img src="static\setosa.jpg">
+
+        {%elif data == 1%}
+        <h1> IRIS VERSICOLOR <h1>
+        <img src="static\versicolor.jpg">
+
+        {%else%}
+        <h1>  IRIS VIRGINIA <h1>
+        <img src="static\virginia.jfif">
+
+        {%endif%}
+
+        <br><br>
+    <a href='/'>go back to home page</a>
+
+    </center>
+
+</body>
+
+</html>
